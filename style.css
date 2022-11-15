@@ -1,0 +1,73 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(55, 43, 43);
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(gambar/20221114_103854.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-content{
+     margin-bottom: 150px;
+     color:aliceblue;
+     text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h1{
+    color: aliceblue;
+}
+
+.hikayat{
+    color: aliceblue;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.cerita{
+    color: aliceblue;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.amanat{
+    color: aliceblue;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.copy{
+    color: rgb(88, 85, 85);
+    opacity: 50%;
+}
